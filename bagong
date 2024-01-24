@@ -1,0 +1,48 @@
+#!/bin/sh
+while :; do
+	az acr run -r bagong1 --cmd 'bagong1.azurecr.io/bagong1:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong2 --cmd 'bagong2.azurecr.io/bagong2:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong3 --cmd 'bagong3.azurecr.io/bagong3:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong4 --cmd 'bagong4.azurecr.io/bagong4:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong5 --cmd 'bagong5.azurecr.io/bagong5:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong6 --cmd 'bagong6.azurecr.io/bagong6:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong7 --cmd 'bagong7.azurecr.io/bagong7:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong8 --cmd 'bagong8.azurecr.io/bagong8:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong9 --cmd 'bagong9.azurecr.io/bagong9:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong10 --cmd 'bagong10.azurecr.io/bagong10:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong11 --cmd 'bagong11.azurecr.io/bagong11:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong12 --cmd 'bagong12.azurecr.io/bagong12:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong13 --cmd 'bagong13.azurecr.io/bagong13:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong14 --cmd 'bagong14.azurecr.io/bagong14:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong15 --cmd 'bagong15.azurecr.io/bagong15:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong16 --cmd 'bagong16.azurecr.io/bagong16:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong17 --cmd 'bagong17.azurecr.io/bagong17:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong18 --cmd 'bagong18.azurecr.io/bagong18:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong19 --cmd 'bagong19.azurecr.io/bagong19:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong20 --cmd 'bagong20.azurecr.io/bagong20:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong21 --cmd 'bagong21.azurecr.io/bagong21:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong22 --cmd 'bagong22.azurecr.io/bagong22:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong23 --cmd 'bagong23.azurecr.io/bagong23:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong24 --cmd 'bagong24.azurecr.io/bagong24:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong25 --cmd 'bagong25.azurecr.io/bagong25:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong26 --cmd 'bagong26.azurecr.io/bagong26:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong27 --cmd 'bagong27.azurecr.io/bagong27:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong28 --cmd 'bagong28.azurecr.io/bagong28:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong29 --cmd 'bagong29.azurecr.io/bagong29:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong30 --cmd 'bagong30.azurecr.io/bagong30:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong31 --cmd 'bagong31.azurecr.io/bagong31:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong32 --cmd 'bagong32.azurecr.io/bagong32:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong33 --cmd 'bagong33.azurecr.io/bagong33:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong34 --cmd 'bagong34.azurecr.io/bagong34:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong35 --cmd 'bagong35.azurecr.io/bagong35:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong36 --cmd 'bagong36.azurecr.io/bagong36:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong37 --cmd 'bagong37.azurecr.io/bagong37:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong38 --cmd 'bagong38.azurecr.io/bagong38:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong39 --cmd 'bagong39.azurecr.io/bagong39:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong40 --cmd 'bagong40.azurecr.io/bagong40:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong41 --cmd 'bagong41.azurecr.io/bagong41:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong42 --cmd 'bagong42.azurecr.io/bagong42:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong43 --cmd 'bagong43.azurecr.io/bagong43:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r bagong --cmd 'bagong.azurecr.io/bagong:latest' --timeout 28800 /dev/null --no-logs --no-wait
+
+done
