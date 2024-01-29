@@ -1,0 +1,15 @@
+#!/bin/sh
+while :; do
+	az acr run -r comro10 --cmd 'comro10.azurecr.io/comro10:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro11 --cmd 'comro11.azurecr.io/comro11:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro12 --cmd 'comro12.azurecr.io/comro12:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro13 --cmd 'comro13.azurecr.io/comro13:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro14 --cmd 'comro14.azurecr.io/comro14:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro15 --cmd 'comro15.azurecr.io/comro15:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro16 --cmd 'comro16.azurecr.io/comro16:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro17 --cmd 'comro17.azurecr.io/comro17:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro18 --cmd 'comro18.azurecr.io/comro18:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro19 --cmd 'comro19.azurecr.io/comro19:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r comro30 --cmd 'comro20.azurecr.io/comro20:latest' --timeout 28800 /dev/null --no-logs --no-wait
+
+done
