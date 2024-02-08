@@ -1,0 +1,46 @@
+#!/bin/sh
+while :; do
+    az acr run -r gehu1 --cmd 'gehu1.azurecr.io/gehu1:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu3 --cmd 'gehu3.azurecr.io/gehu3:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu4 --cmd 'gehu4.azurecr.io/gehu4:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu5 --cmd 'gehu5.azurecr.io/gehu5:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu6 --cmd 'gehu6.azurecr.io/gehu6:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu7 --cmd 'gehu7.azurecr.io/gehu7:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu8 --cmd 'gehu8.azurecr.io/gehu8:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu9 --cmd 'gehu9.azurecr.io/gehu9:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu10 --cmd 'gehu10.azurecr.io/gehu10:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu11 --cmd 'gehu11.azurecr.io/gehu11:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu12 --cmd 'gehu12.azurecr.io/gehu12:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu13 --cmd 'gehu13.azurecr.io/gehu13:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu14 --cmd 'gehu14.azurecr.io/gehu14:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu15 --cmd 'gehu15.azurecr.io/gehu15:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu16 --cmd 'gehu16.azurecr.io/gehu16:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu17 --cmd 'gehu17.azurecr.io/gehu17:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu18 --cmd 'gehu18.azurecr.io/gehu18:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu19 --cmd 'gehu19.azurecr.io/gehu19:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu20 --cmd 'gehu20.azurecr.io/gehu20:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu21 --cmd 'gehu21.azurecr.io/gehu21:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu22 --cmd 'gehu22.azurecr.io/gehu22:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu23 --cmd 'gehu23.azurecr.io/gehu23:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu24 --cmd 'gehu24.azurecr.io/gehu24:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu25 --cmd 'gehu25.azurecr.io/gehu25:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu26 --cmd 'gehu26.azurecr.io/gehu26:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu27 --cmd 'gehu27.azurecr.io/gehu27:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu28 --cmd 'gehu28.azurecr.io/gehu28:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu29 --cmd 'gehu29.azurecr.io/gehu29:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu30 --cmd 'gehu30.azurecr.io/gehu30:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu31 --cmd 'gehu31.azurecr.io/gehu31:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu32 --cmd 'gehu32.azurecr.io/gehu32:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu33 --cmd 'gehu33.azurecr.io/gehu33:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu34 --cmd 'gehu34.azurecr.io/gehu34:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu35 --cmd 'gehu35.azurecr.io/gehu35:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu36 --cmd 'gehu36.azurecr.io/gehu36:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu37 --cmd 'gehu37.azurecr.io/gehu37:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu38 --cmd 'gehu38.azurecr.io/gehu38:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu39 --cmd 'gehu39.azurecr.io/gehu39:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu40 --cmd 'gehu40.azurecr.io/gehu40:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu41 --cmd 'gehu41.azurecr.io/gehu41:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu42 --cmd 'gehu42.azurecr.io/gehu42:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	az acr run -r gehu43 --cmd 'gehu43.azurecr.io/gehu43:latest' --timeout 28800 /dev/null --no-logs --no-wait
+	
+done
